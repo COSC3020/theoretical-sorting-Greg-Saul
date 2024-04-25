@@ -22,7 +22,7 @@ Add your answers to this markdown file.
 
 To test the claim, I would use many different possible arrays such as: empty, sorted, reverse sorted, random, and partially sorted
 
-I would use these different arrays and use different lengths of each of them. I would use timing code to run the sorting algorithm with the different arrays then probably put the results into an excel spreadsheet and find the ratio of elements:time that every datapoint should be near. I would probably also graph the datapoints and look at the line of best fit and where the points fall just for another way to analyze it.
+I would use these different arrays and use different lengths of each of them. I would use timing code to run the sorting algorithm with the different arrays then probably put the results into an excel spreadsheet and use that to graph the results. I would expect the time to grow in a linear way as the elements in the array grow. because of this, I would expect the datapoints to fall on the line of best fit that has a y=mx+b format. This would prove that as the elements got bigger, so does the time at the same rate. In order to account for inconsistencies like we learned about in a previous project, I would use the same computer for every test and I would have no background apps running if possible. 
 
 We know from what we have learned that the best theoretical sorting time is $\Omega(nlogn)$ for comparison based sorting algorithms. This is because we only compare 2 elements at a time as described by the model that uses a binary tree where leaves are the elements of the array and the other nodes are "choice points" where comparisons are done.
 
