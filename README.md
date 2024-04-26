@@ -26,6 +26,8 @@ I would use these different arrays and use different lengths of each of them. I 
 
 We know from what we have learned that the best theoretical sorting time is $\Omega(nlogn)$ for comparison based sorting algorithms. This is because we only compare 2 elements at a time as described by the model that uses a binary tree where leaves are the elements of the array and the other nodes are "choice points" where comparisons are done.
 
+These methods of testing and known limits of comparative sorting can tell us with almost certainty that the researcher is wrong about his claims of having a complexity of $O(n)$.
+
 
 
 
